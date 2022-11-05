@@ -27,6 +27,7 @@ function randomLanguage() {
 */
 
 export default function Home() {
+  const [hello, setHello] = React.useState(strings[0]);
   
   const [style, trigger] = useWiggle({ x: 5, y: 5, scale: 1 });
 

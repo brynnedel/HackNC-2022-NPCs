@@ -36,6 +36,7 @@ export default function Testing() {
      </div></a>
       
       <a href="/src/hiphop.jsx"><div class="jumbotron">
+        <img src="http://www.memorial.org.br/antigo/wp-content/uploads/2017/11/Hip-Hop-1.jpg"></img>
     <h2 id="genre-title">Hip Hop             </h2>
     <p>Description</p>
      </div></a>

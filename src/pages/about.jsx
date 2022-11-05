@@ -17,9 +17,9 @@ export default function About() {
         through the ""LINK"" Artists page!
       </p>
       <p>
-        Please use the ""Genres"" page to navigate through 
-        filters, and the ""User"" page to input new artists 
-        in the Chapel Hill area. // Add links to finalized pages later
+        Please use the <Link href="/testing">Genres</Link> page to navigate through 
+        filters, and the <Link href="/artists">Artists</Link> page to input new artists 
+        in the Chapel Hill area. 
       </p>
       <ul>
         <li>
