@@ -170,8 +170,8 @@ h1 {
 
 .page p {
   line-height: 1.5;
-  margin-left: 130px;
-  margin-right: 130px;
+  margin-left: 150px;
+  margin-right: 150px;
   margin-top: 40px;
 }
 
@@ -242,6 +242,12 @@ a:hover{
   text-decoration: none;}
   
   
+
+/* genre page */
+.genre-title{
+  margin-left: 120px;
+  
+}
   
 /*   pictures */
   
@@ -250,10 +256,9 @@ a:hover{
 }
  
 
-#genre-title:hover{
-  font-weight: 200px;
-  letter-spacing: 5px;
-  font-size: 65px;
+
+.change-color{
+  
 }
 
 img{
@@ -302,4 +307,8 @@ img{
   animation-iteration-count: 4;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
+  margin-top: 60px;
+}
+.unclogo:hover{
+  
 }

@@ -5,15 +5,22 @@ export default function Testing() {
   return(
     <div classname="page">
       
+      <div class="container-fluid">
+      <h1 class="genre-title">
+        <span class="change-color">G</span>
+        <span class="change-color">e</span>
+        <span class="change-color">n</span>
+        <span class="change-color">r</span>
+        <span class="change-color">e</span>
+        <span class="change-color">s</span>
       
-      <h1 className="title">
-        Genres
       </h1>
+        </div>
      
       
-      <h2>
+      <h3>
         Discover local artists from your favourite genre. 
-      </h2>
+      </h3>
   
       <div class="divider"></div>
   
