@@ -47,7 +47,7 @@ export default function Testing() {
     <p>Description</p>
      </div></a>
       
-    <a href="/src/jazz.jsx"><div class="jumbotron">
+    <a href="/src/pages/jazz.jsx"><div class="jumbotron">
       <img src="https://cdn.stmarytx.edu/wp-content/uploads/2016/11/Rufus-Reid.jpg"></img>
     <h2>Jazz            </h2>
     <p>Description</p>
