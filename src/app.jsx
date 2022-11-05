@@ -32,7 +32,7 @@ export default function Home() {
           <span className="divider">|</span>
           <Link href="/about">About</Link>
           <span className="divider">|</span>
-          <Link href="/testing">Testing</Link>
+          <Link href="/testing">Genres</Link>
           <span className="divider">|</span>
           <Link href="/user">User</Link>
         </div>

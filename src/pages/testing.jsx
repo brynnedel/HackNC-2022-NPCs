@@ -8,16 +8,20 @@ export default function Testing() {
         Genres
       </h1>
       <p>
-        Here you can find information and links to 
+        Discover local artists from your favourite genre. 
       </p>
   
-  
+  <div class="row">
+      </div>    
+      
+      
       <div class="genre-buttons">
         <button type>Hip Hop</button><br></br>
         <button type>Jazz</button><br></br>
         <button type>Classical</button><br></br>
         <button type>Country   </button>
       </div>
+      
         </div>
       
 
