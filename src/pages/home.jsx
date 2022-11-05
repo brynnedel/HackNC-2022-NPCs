@@ -5,19 +5,8 @@ import { Link } from "wouter";
 
 // Our language strings for the header
 const strings = [
-  "Artists in CH",
-  // "Salut React",
-  // "Hola React",
-  // "안녕 React",
-  // "Hej React",
-  // "नमस्ते React",
-  // "你好 React",
+  "Artists in CH"
 ];
-
-// Utility function to choose a random value from the language array
-function randomLanguage() {
-  return strings[Math.floor(Math.random() * strings.length)];
-}
 
 /**
 * The Home function defines the content that makes up the main content of the Home page

@@ -4,9 +4,13 @@ export default function Testing() {
   
   return(
     <div classname="page">
+      
+      
       <h1 className="title">
         Genres
       </h1>
+     
+      
       <p>
         Discover local artists from your favourite genre. 
       </p>
