@@ -72,6 +72,14 @@ ul{
   display:flex;
   list-style: none;
   justify-content: right;
+  text-decoration: none;
+}
+li{
+  text-decoration: none;
+}
+li:hover{
+  color: #1F5C70;
+  letter-spacing: 5px;
 }
 
 /* Navigation grid */

@@ -47,7 +47,17 @@ export default function Home() {
   return (
     <>
       <nav class="navbar">
-      <div class="container-fluid"><h2 id="name">Navigation Bar  </h2> <ul class="nav_links"><li><Link href="/testing">Explore</Link></li><li><Link href="/about">About</Link></li></ul>
+      <div class="container-fluid"><h2 id="name">Navigation Bar  </h2>
+        <ul class="nav_links">
+          <li>
+            <Link href="/testing">Explore</Link>
+          </li>
+          <span className="divider">|
+          </span>
+          <li>
+            <Link href="/about">About</Link>
+          </li>
+        </ul>
         </div> </nav>
       <h1 className="title">{hello}!</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
