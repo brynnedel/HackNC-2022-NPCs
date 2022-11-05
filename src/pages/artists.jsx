@@ -1,14 +1,12 @@
 import * as React from "react";
+import TableData from './form';
 
-export default function Artists() {
+function Artists() {
   
   return(
     
     <div classname="page">
-      <h1 className="title">
-        test text 
-      </h1>
-      
+      < TableData />
       
     </div>
     
@@ -17,3 +15,5 @@ export default function Artists() {
   
   
 }
+
+export default Artists;

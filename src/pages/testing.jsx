@@ -11,48 +11,45 @@ export default function Testing() {
         Discover local artists from your favourite genre. 
       </p>
   
-      
-  <div class="row genre-card">
-   <a href="#"><div class="jumbotron">
+      <div class="divider"></div>
+  
+   <a href="/src/rnb.jsx"><div class="jumbotron">
     <h2>Rhythm & Blues</h2>
     <p>Description</p>
      </div></a>
-      </div>    
+         
       
-    <div class="row genre-card">
-   <a href="#"><div class="jumbotron">
-    <h2>Rock  </h2>
+    
+   <a href="/src/rock.jsx"><div class="jumbotron">
+    <h2>Rock             </h2>
     <p>Description</p>
      </div></a>
-      </div>  
+     
    
-        <div class="row genre-card">
-   <a href="#"><div class="jumbotron">
-    <h2>Rhythm & Blues</h2>
+        <a href="/src/pop.jsx"><div class="jumbotron">
+    <h2>Pop             </h2>
     <p>Description</p>
      </div></a>
-      </div>  
       
-     <div class="row genre-card">
-   <a href="#"><div class="jumbotron">
-    <h2>Rhythm & Blues</h2>
+      <a href="/src/hiphop.jsx"><div class="jumbotron">
+    <h2>Hip Hop             </h2>
     <p>Description</p>
      </div></a>
-      </div>  
       
-      <div class="row genre-card">
-   <a href="#"><div class="jumbotron">
-    <h2>Rhythm & Blues</h2>
+     <a href="#"><div class="jumbotron">
+    <h2>Rock             </h2>
     <p>Description</p>
      </div></a>
-      </div>  
       
-        <div class="row genre-card">
-   <a href="#"><div class="jumbotron">
-    <h2>Rhythm & Blues</h2>
+       <a href="#"><div class="jumbotron">
+    <h2>Rock             </h2>
     <p>Description</p>
      </div></a>
-      </div>  
+      
+         <a href="#"><div class="jumbotron">
+    <h2>Rock             </h2>
+    <p>Description</p>
+     </div></a>
       
       <div class="genre-buttons">
         <button type>Pop</button><br></br>

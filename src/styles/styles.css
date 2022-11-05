@@ -203,16 +203,23 @@ h2 {
   color: #1F5C70;
 }
 
-
-
-.genre-card{
-  padding: auto;
-  text-align: center;
-  margin-bottom: 30px;
-  margin-top:10px;
-}
-.genre-card:hover{
-  color: #0839A8;
-  background-color:#1F5C70;
+.divider{
+  height: 20px;
+  
 }
 
+
+.jumbotron{
+  width: 100%,
+}
+.jumbotron:hover{
+  color: blue;
+}
+
+a{
+  text-decoration: none;
+  color:#1F5C70;
+}
+a:hover{
+  text-decoration: none;
+}
