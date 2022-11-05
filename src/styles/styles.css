@@ -64,6 +64,11 @@ to this section's matching END comment to see page-specific styles.
   background-color: #D0FFF1;
 }
 
+/* navigation bar */
+ul{
+  display:block;
+}
+
 /* Navigation grid */
 .footer {
   display: flex;
