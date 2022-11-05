@@ -11,6 +11,7 @@ export default function Testing() {
         Discover local artists from your favourite genre. 
       </p>
   
+      
   <div class="row genre-card">
   <div class="jumbotron">
     <h2>Rhythm & Blues</h2>
@@ -46,8 +47,6 @@ export default function Testing() {
     </div>
       </div>  
       
-      
-      
       <div class="genre-buttons">
         <button type>Pop</button><br></br>
         <button type>R&B</button><br></br>
@@ -60,7 +59,6 @@ export default function Testing() {
       </div>
       
         </div>
-      
 
   
   );

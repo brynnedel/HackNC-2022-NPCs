@@ -44,6 +44,18 @@ function ArtistsForm(props) {
   return (
     <div>
       
+      <label>Name</label>
+      <input type="text" value={name} onChange={changeName}/>
+      <label>Location</label>
+      <input type="text" value={location} onChange={changeLocation}/>
+      <label>Genre</label>
+      <input type="text" value={genre} onChange={changeGenre}/>
+      <label>Email</label>
+      <input type="text" value={email} onChange={changeEmail}/>
+      <button onClick={transferValue}>Submit</button>
+      
     </div>
   );
 }
+
+export default ArtistsForm;
