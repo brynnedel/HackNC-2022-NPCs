@@ -265,15 +265,27 @@ img{
   display: flex;
 }
 
+
+/* keyframes  animations*/
 @keyframes slidein{
   from {
-    transform: translateX(0%);
+    transform: translateY(50%);
   }
   to{
-    transform: translateY(400%);
+    transform: translateX(400%);
   }
   
 }
+
+@keyframes spin{
+  from {
+    transform:rotate(0deg);
+  }
+  to {
+    transform:rotate(360deg);
+  }
+  }
+
 
 .unclogo{
   position: relative;
@@ -281,4 +293,7 @@ img{
     animation-duration: 10s;
   width: 40vh;
   height: 30vh;
+  animation-iteration-count: 4;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
 }
