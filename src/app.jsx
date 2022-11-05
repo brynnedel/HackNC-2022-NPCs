@@ -32,11 +32,13 @@ export default function Home() {
         </div>
       </main>
       {/* Footer links to Home and About, Link elements matched in router.jsx */}
-      <footer className="footer">
+      <header className="header">
         <div className="links">
           <Link href="/">Home</Link>
           <span className="divider">|</span>
           <Link href="/about">About</Link>
+          <span className="divider">|</span>
+          <Link href="/testing">Testing</Link>
         </div>
         <a
           className="btn--remix"
@@ -46,7 +48,7 @@ export default function Home() {
           <img src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140" alt="" />
           Remix on Glitch
         </a>
-      </footer>
+      </header>
     </Router>
   );
 }
