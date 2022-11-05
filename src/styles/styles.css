@@ -65,8 +65,13 @@ to this section's matching END comment to see page-specific styles.
 }
 
 /* navigation bar */
+.container-fluid{
+  display: flex;
+  }
 ul{
-  display:block;
+  display:flex;
+  list-style: none;
+  justify-content: right;
 }
 
 /* Navigation grid */
