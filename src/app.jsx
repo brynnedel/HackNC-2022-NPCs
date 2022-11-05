@@ -34,7 +34,7 @@ export default function Home() {
           <span className="divider">|</span>
           <Link href="/testing">Genres</Link>
           <span className="divider">|</span>
-          <Link href="/user">User</Link>
+          <Link href="/user">Artists</Link>
         </div>
         <a
           className="btn--remix"

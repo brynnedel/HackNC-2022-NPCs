@@ -2,28 +2,21 @@ import * as React from "react";
 
 export default function About() {
   
+  // discord link: https://discord.gg/ZnHhnp3V
+  
   return (
     <div className="page">
       <h1 className="title">
-        About our website
+        About the website
       </h1>
       <p>
-        Welcome to the ""Name Placeholder""  where you can instantly create a
-        React site that's fully customizable.
+        Welcome to the UNC-CH Artist finder. where you can instantly find artists in the
+        Chapel Hill area, connect, and book them for events. 
       </p>
       <p>
-        <em>
-          If you're completely new to React, learning the{" "}
-          <a href="https://reactjs.org/docs/hello-world.html">main concepts</a>{" "}
-          will get you off to a great start. You'll also see comments and links
-          to supporting resources throughout the code.
-        </em>
-      </p>
-      <p>
-        This page is a great spot to tell the world a few details about the new
-        React app you built on Glitch! Check out your project's{" "}
-        <code>readme</code> file to learn more about how to customize your
-        content.
+        Please use the ""Genres"" page to navigate through 
+        filters, and the ""User"" page to input new artists 
+        in the Chapel Hill area. // Add links to finalized pages later
       </p>
       <ul>
         <li>

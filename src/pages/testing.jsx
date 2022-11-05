@@ -11,20 +11,45 @@ export default function Testing() {
         Discover local artists from your favourite genre. 
       </p>
   
-  <div class="row">
-    <div class="col-lg-4"><div class="genre-card">
-      </div></div>
-    <div class="col-lg-4">test</div>
-    <div class="col-lg-4"></div>
+  <div class="row genre-card">
+  <div class="jumbotron">
+    <h2>Rhythm & Blues</h2>
+    <p>Description</p>
+    </div>
       </div>    
+      
+       <div class="row genre-card">
+  <div class="jumbotron">
+    <h2>Hip Hop</h2>
+    <p>Description</p>
+    </div>
+      </div>  
+      
+       <div class="row genre-card">
+  <div class="jumbotron">
+    <h2>Country</h2>
+    <p>Description</p>
+    </div>
+      </div>  
+      
+       <div class="row genre-card">
+  <div class="jumbotron">
+    <h2>Classical</h2>
+    <p>Description</p>
+    </div>
+      </div>  
       
       
       
       <div class="genre-buttons">
+        <button type>Pop</button><br></br>
+        <button type>R&B</button><br></br>
         <button type>Hip Hop</button><br></br>
         <button type>Jazz</button><br></br>
         <button type>Classical</button><br></br>
-        <button type>Country   </button>
+        <button type>Blues</button><br></br>
+        <button type>Country</button>
+        
       </div>
       
         </div>

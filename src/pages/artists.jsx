@@ -1,12 +1,12 @@
 import * as React from "react";
 
-export default function User() {
+export default function Artists() {
   
   return(
     
     <div classname="page">
       <h1 className="title">
-        return 
+        test text 
       </h1>
       
       
