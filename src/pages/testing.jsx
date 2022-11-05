@@ -3,8 +3,14 @@ import * as React from "react";
 export default function Testing() {  
   
   return(
-    <p>
-    Hello world
-    </p>
+    <div classname="page">
+      <h1 className="title">
+        Genres
+      </h1>
+      <p>
+        Here you can find information and links to 
+      </p>
+    </div>
+  
   );
 }
