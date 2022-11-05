@@ -25,9 +25,11 @@ export default function About() {
         Enjoy your musical journey!
       </p>
       
-      <div class="animation">
-        <
-      </div>
+       <img  class="unclogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/1200px-North_Carolina_Tar_Heels_logo.svg.png">
+        </img>
+        <h1>test</h1>
+       
+      
       
       
 

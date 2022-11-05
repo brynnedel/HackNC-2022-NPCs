@@ -17,7 +17,7 @@ export default function Testing() {
    <a href="/src/rnb.jsx"><div class="jumbotron">
      <img src="https://photos.bandsintown.com/large/9539821.jpeg"></img>
     <h2 id="genre-title">Rhythm & Blues</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+     <p>Description</p>
      </div></a>
          
       
