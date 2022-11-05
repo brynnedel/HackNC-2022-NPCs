@@ -13,7 +13,9 @@ export default function Testing() {
   
       <div class="divider"></div>
   
+      
    <a href="/src/rnb.jsx"><div class="jumbotron">
+     <img id="rnbpic" src="https://photos.bandsintown.com/large/9539821.jpeg"></img>
     <h2>Rhythm & Blues</h2>
     <p>Description</p>
      </div></a>
@@ -21,6 +23,7 @@ export default function Testing() {
       
     
    <a href="/src/rock.jsx"><div class="jumbotron">
+     <img src="rockpic" src="https://cdn.shopify.com/s/files/1/1268/8989/articles/What_to_Wear_roa_rock_concert_1000x.jpg?v=1588959838"></img>
     <h2>Rock             </h2>
     <p>Description</p>
      </div></a>

@@ -211,8 +211,7 @@ h2 {
 
 .jumbotron{
   width: 100%,
-    background-size:cover;
-  background-image: url("https://photos.bandsintown.com/large/9539821.jpeg");
+  
 }
 .jumbotron:hover{
   color: red;
@@ -224,4 +223,11 @@ a{
 }
 a:hover{
   text-decoration: none;
+  
+  #rnbpic{
+    height: auto;
+    width:50%;
+    display:flex;
+    
+  }
 }
