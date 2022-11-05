@@ -83,6 +83,14 @@ li:hover{
   letter-spacing: 5px;
 }
 
+/*  genre buttons*/
+.genre-buttons{
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+
+
 /* Navigation grid */
 .footer {
   display: flex;

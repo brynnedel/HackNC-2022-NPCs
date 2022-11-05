@@ -10,6 +10,12 @@ export default function Testing() {
       <p>
         Here you can find information and links to 
       </p>
+      <div class="genre-buttons">
+        <button type>Hip Hop</button><br></br>
+        <button type>Jazz</button><br></br>
+        <button type>Classical</button><br></br>
+        <button type>Country   </button>
+      </div>
     </div>
   
   );
