@@ -13,38 +13,45 @@ export default function Testing() {
   
       
   <div class="row genre-card">
-  <div class="jumbotron">
+   <a href="#"><div class="jumbotron">
     <h2>Rhythm & Blues</h2>
     <p>Description</p>
-    </div>
+     </div></a>
       </div>    
       
-       <div class="row genre-card">
-  <div class="jumbotron" >
-    <h2>Hip Hop</h2>
+    <div class="row genre-card">
+   <a href="#"><div class="jumbotron">
+    <h2>Rock  </h2>
     <p>Description</p>
-    </div>
+     </div></a>
+      </div>  
+   
+        <div class="row genre-card">
+   <a href="#"><div class="jumbotron">
+    <h2>Rhythm & Blues</h2>
+    <p>Description</p>
+     </div></a>
       </div>  
       
-       <div class="row genre-card">
-  <div class="jumbotron">
-    <h2>Country</h2>
+     <div class="row genre-card">
+   <a href="#"><div class="jumbotron">
+    <h2>Rhythm & Blues</h2>
     <p>Description</p>
-    </div>
+     </div></a>
       </div>  
       
-       <div class="row genre-card">
-  <div class="jumbotron">
-    <h2>Classical   </h2>
+      <div class="row genre-card">
+   <a href="#"><div class="jumbotron">
+    <h2>Rhythm & Blues</h2>
     <p>Description</p>
-    </div>
-      </div> 
+     </div></a>
+      </div>  
       
-       <div class="row genre-card">
-  <div class="jumbotron">
-    <h2>Jazz</h2>
+        <div class="row genre-card">
+   <a href="#"><div class="jumbotron">
+    <h2>Rhythm & Blues</h2>
     <p>Description</p>
-    </div>
+     </div></a>
       </div>  
       
       <div class="genre-buttons">

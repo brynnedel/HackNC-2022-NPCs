@@ -205,3 +205,14 @@ h2 {
 
 
 
+.genre-card{
+  padding: auto;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top:10px;
+}
+.genre-card:hover{
+  color: #0839A8;
+  background-color:#1F5C70;
+}
+
