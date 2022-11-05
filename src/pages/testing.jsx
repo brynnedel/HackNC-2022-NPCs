@@ -30,7 +30,8 @@ export default function Testing() {
      
    
         <a href="/src/pop.jsx"><div class="jumbotron">
-    <h2>Pop             </h2>
+    <img id="poppic" src="https://otakusmart.com/wp-content/uploads/2022/04/2022-Kpop-Concerts-Schedule.jpg"></img>
+          <h2>Pop             </h2>
     <p>Description</p>
      </div></a>
       
@@ -39,31 +40,26 @@ export default function Testing() {
     <p>Description</p>
      </div></a>
       
-     <a href="#"><div class="jumbotron">
-    <h2>Rock             </h2>
+     <a href="/src/indie.jsx"><div class="jumbotron">
+    <h2>Indie             </h2>
     <p>Description</p>
      </div></a>
       
-       <a href="#"><div class="jumbotron">
-    <h2>Rock             </h2>
+    <a href="/src/jazz.jsx"><div class="jumbotron">
+    <h2>Jazz            </h2>
     <p>Description</p>
      </div></a>
       
-         <a href="#"><div class="jumbotron">
-    <h2>Rock             </h2>
+      <a href="/src/classical.jsx"><div class="jumbotron">
+    <h2>Classical             </h2>
     <p>Description</p>
      </div></a>
-      
-      <div class="genre-buttons">
-        <button type>Pop</button><br></br>
-        <button type>R&B</button><br></br>
-        <button type>Hip Hop</button><br></br>
-        <button type>Jazz</button><br></br>
-        <button type>Classical</button><br></br>
-        <button type>Blues</button><br></br>
-        <button type>Country</button>
-        
-      </div>
+       
+       <a href="/src/country.jsx"><div class="jumbotron">
+    <h2>Country             </h2>
+    <p>Description</p>
+     </div></a>
+
       
         </div>
 

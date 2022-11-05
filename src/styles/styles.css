@@ -209,10 +209,7 @@ h2 {
 }
 
 
-.jumbotron{
-  width: 100%,
-  
-}
+
 .jumbotron:hover{
   color: red;
 }
@@ -220,14 +217,17 @@ h2 {
 a{
   text-decoration: none;
   color:#1F5C70;
+  justify-content: center;
+  text-align:center;
 }
 a:hover{
-  text-decoration: none;
+  text-decoration: none;}
   
-  #rnbpic{
-    height: auto;
-    width:50%;
-    display:flex;
-    
-  }
+  
+  
+/*   pictures */
+  
+.picture{
+  text-align: center;
 }
+ 
