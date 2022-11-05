@@ -46,7 +46,7 @@ export default function Home() {
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <animated.div onMouseEnter={trigger} style={style}>
         <img
-          src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/vinyl%20image.png?v=1667681312415"
+          src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
           className="illustration"
           onClick={handleChangeHello}
           alt="Illustration click to change language"
@@ -54,11 +54,7 @@ export default function Home() {
       </animated.div>
       <div className="navigation">
         {/* When the user hovers over this text, we apply the wiggle function to the image style */}
-        <animated.div onMouseEnter={trigger}>
-          <a className="btn--click-me" onClick={handleChangeHello}>
-            Psst, click me
-          </a>
-        </animated.div>
+        <animated.div onMouseEnter={trigger}> </animated.div>
       </div>
       <div className="instructions">
         <h2>Using this website</h2>

@@ -6,6 +6,7 @@ export default function About() {
   
   return (
     <div className="page">
+      
       <h1 className="title">
         About the website
       </h1>

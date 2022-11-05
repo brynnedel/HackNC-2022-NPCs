@@ -161,6 +161,8 @@ h1 {
   font-weight: bold;
   font-size: 100px;
   line-height: 105%;
+  margin-left: 130px;
+  margin-right: 130px;
 }
 .page h1 {
   font-size: 48px;
@@ -168,6 +170,9 @@ h1 {
 
 .page p {
   line-height: 1.5;
+  margin-left: 130px;
+  margin-right: 130px;
+  margin-top: 40px;
 }
 
 .page a {
