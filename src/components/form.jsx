@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import ArtistsForm from './form';
+import ArtistsForm from './table';
 import jsonData from './data.json';
 
 function TableData() {
@@ -20,7 +20,7 @@ function TableData() {
     const totalArtists = artistData.length;
     const updatedArtistData = [...artistData];
     updatedArtistData.push(data);
-    setArtistData(updatedStudentData);
+    setArtistData(updatedArtistData);
   };
   
   return (

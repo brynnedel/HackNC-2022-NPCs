@@ -1,11 +1,12 @@
 import * as React from "react";
-import TableData from './form';
+import TableData from '../components/form';
 
 function Artists() {
   
   return(
     
     <div classname="page">
+      
       < TableData />
       
     </div>
