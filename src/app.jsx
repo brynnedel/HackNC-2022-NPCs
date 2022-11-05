@@ -31,8 +31,9 @@ export default function Home() {
           <PageRouter />
         </div>
       </main>
+    
       {/* Footer links to Home and About, Link elements matched in router.jsx */}
-      <header className="header">
+      <footer className="footer">
         <div className="links">
           <Link href="/">Home</Link>
           <span className="divider">|</span>
@@ -48,7 +49,7 @@ export default function Home() {
           <img src="https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FLogo_Color.svg?v=1618199565140" alt="" />
           Remix on Glitch
         </a>
-      </header>
+      </footer>
     </Router>
   );
 }
