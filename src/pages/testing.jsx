@@ -11,9 +11,9 @@ export default function Testing() {
       </h1>
      
       
-      <p>
+      <h2>
         Discover local artists from your favourite genre. 
-      </p>
+      </h2>
   
       <div class="divider"></div>
   
@@ -58,11 +58,13 @@ export default function Testing() {
      </div></a>
       
       <a href="/src/classical.jsx"><div class="jumbotron">
+        <img src="https://d2d5f3568fvb9s.cloudfront.net/wp-content/uploads/2020/05/22163339/56551745_2344293688995192_4029564593717116928_o.jpg"></img>
     <h2>Classical             </h2>
     <p>Description</p>
      </div></a>
        
        <a href="/src/country.jsx"><div class="jumbotron">
+          <img src="https://townsquare.media/site/204/files/2019/01/William-Michael-Morgan-Twitter.gif?w=980&q=75"></img>
     <h2>Country             </h2>
     <p>Description</p>
      </div></a>
