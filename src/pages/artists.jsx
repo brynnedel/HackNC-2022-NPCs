@@ -1,5 +1,5 @@
 import * as React from "react";
-import TableData from '../components/form';
+
 
 function Artists() {
   

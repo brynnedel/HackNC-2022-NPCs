@@ -54,7 +54,7 @@ export default function Home() {
       </animated.div>
       <div className="navigation">
         {/* When the user hovers over this text, we apply the wiggle function to the image style */}
-        <animated.div onMouseEnter={trigger}> </animated.div>
+        <animated.div onMouseEnter={trigger}>. </animated.div>
       </div>
       <div className="instructions">
         <h2>Using this website</h2>
