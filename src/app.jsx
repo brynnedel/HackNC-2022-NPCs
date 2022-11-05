@@ -25,16 +25,9 @@ export default function Home() {
   return (
     <Router>
       <Seo />
-      <main role="main" className="wrapper">
-        <div className="content">
-          {/* Router specifies which component to insert here as the main content */}
-          <PageRouter />
-        </div>
-      </main>
-    
-      {/* Footer links to Home and About, Link elements matched in router.jsx */}
       <footer className="footer">
         <div className="links">
+          <h2 id="name">Navigation Bar</h2>
           <Link href="/">Home</Link>
           <span className="divider">|</span>
           <Link href="/about">About</Link>
@@ -50,6 +43,12 @@ export default function Home() {
           Remix on Glitch
         </a>
       </footer>
+      <main role="main" className="wrapper">
+        <div className="content">
+          {/* Router specifies which component to insert here as the main content */}
+          <PageRouter />
+        </div>
+      </main>
     </Router>
   );
 }
