@@ -12,6 +12,9 @@ export default function About() {
       <p>
         Welcome to the UNC-CH Artist finder. where you can instantly find artists in the
         Chapel Hill area, connect, and book them for events. 
+        
+        If you are an up and coming artist in the area, you can also input your own information
+        through the ""LINK"" Artists page!
       </p>
       <p>
         Please use the ""Genres"" page to navigate through 

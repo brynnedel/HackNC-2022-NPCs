@@ -70,9 +70,8 @@ export default function Home() {
         <h2>Using this website</h2>
         <p>
           This is the <strong>UNC-CH Artist Finder</strong> project. You can use
-          it to build your own app. See more info in the{" "}
-          <Link href="/about">About</Link> page, and check out README.md in the
-          editor for additional detail plus next steps you can take!
+          it to find and filter artist by genre to connect and book them for your own event.
+          Please check out the About page for more information or 
         </p>
       </div>
     </>

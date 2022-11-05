@@ -19,7 +19,7 @@ export default function Testing() {
       </div>    
       
        <div class="row genre-card">
-  <div class="jumbotron">
+  <div class="jumbotron" >
     <h2>Hip Hop</h2>
     <p>Description</p>
     </div>
@@ -34,7 +34,14 @@ export default function Testing() {
       
        <div class="row genre-card">
   <div class="jumbotron">
-    <h2>Classical</h2>
+    <h2>Classical   </h2>
+    <p>Description</p>
+    </div>
+      </div> 
+      
+       <div class="row genre-card">
+  <div class="jumbotron">
+    <h2>Jazz</h2>
     <p>Description</p>
     </div>
       </div>  
