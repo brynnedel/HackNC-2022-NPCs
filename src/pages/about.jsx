@@ -5,10 +5,10 @@ export default function About() {
   return (
     <div className="page">
       <h1 className="title">
-        Let's see if this works
+        About our website
       </h1>
       <p>
-        Welcome to the Glitch React starter, where you can instantly create a
+        Welcome to the ""Name Placeholder""  where you can instantly create a
         React site that's fully customizable.
       </p>
       <p>

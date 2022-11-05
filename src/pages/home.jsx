@@ -9,7 +9,9 @@ const strings = [
   "Salut React",
   "Hola React",
   "안녕 React",
-  "Hej React"
+  "Hej React",
+  "नमस्ते React",
+  "你好 React",
 ];
 
 // Utility function to choose a random value from the language array

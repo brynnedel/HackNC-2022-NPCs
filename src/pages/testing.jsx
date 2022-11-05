@@ -12,7 +12,12 @@ export default function Testing() {
       </p>
   
   <div class="row">
+    <div class="col-lg-4"><div class="genre-card">
+      </div></div>
+    <div class="col-lg-4">test</div>
+    <div class="col-lg-4"></div>
       </div>    
+      
       
       
       <div class="genre-buttons">
