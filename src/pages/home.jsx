@@ -63,45 +63,46 @@ export default function Home() {
         <h3><strong>Featured Artists</strong></h3>
       </div>
       <div class="row">
-        <div class="column">
+        <div class="column1">
       
           <animated.div onMouseEnter={trigger} style={style}>
-        <img
+        <a href = "#">  <img
           src="https://cdns-images.dzcdn.net/images/artist/9a2bc8d4c6945ca00f9c278849fe4c27/500x500.jpg"
           //https://www.instagram.com/westonestate/?hl=en
           className="illustration"
           onClick={handleChangeHello}
           alt="Illustration click to change language"
-        />
+                          
+                                                                /> </a>
       </animated.div>
       </div>
         
-        <div class="column">
+        <div class="column1">
       <animated.div onMouseEnter={trigger} style={style}>
-        <img
+         <img 
           src="https://s3.r29static.com/bin/entry/461/x,80/1975578/image.jpg"
           //https://www.instagram.com/annaclendening/
           className="illustration"
           onClick={handleChangeHello}
           alt="Illustration click to change language"
-        />
+                                                               /> 
       </animated.div>
       </div>
         
-        <div class="column">
+        <div class="column1">
       <animated.div onMouseEnter={trigger} style={style}>
         <img
-          src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
+          src="https://i.scdn.co/image/ab6772690000dd22dda26c3600d57e0a01f18001"
           className="illustration"
           onClick={handleChangeHello}
           alt="Illustration click to change language"
         />
       </animated.div>
       </div>
-        <div class="column">
+        <div class="column1">
       <animated.div onMouseEnter={trigger} style={style}>
         <img
-          src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
+          src="https://wwwcache.wral.com/asset/entertainment/out_and_about/2018/01/01/17226020/mipso-DMID1-5db0lzxfw-640x480.jpg"
           className="illustration"
           onClick={handleChangeHello}
           alt="Illustration click to change language"

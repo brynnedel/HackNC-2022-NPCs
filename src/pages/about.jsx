@@ -9,7 +9,7 @@ export default function About() {
       
      
       
-      <h1 class="title">
+      <h1 class="genre-title">
          <span class="change-color">W</span>
         <span class="change-color">e</span>
         <span class="change-color">l</span>

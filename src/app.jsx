@@ -31,7 +31,7 @@ export default function Home() {
       <footer className="footer">
         <div className="links">
         
-          <Link href="/"><b>Home</b></Link>
+          <Link href="/">Home</Link>
           <span className="divider"></span>
           <Link href="/about">About</Link>
           <span className="divider"></span>

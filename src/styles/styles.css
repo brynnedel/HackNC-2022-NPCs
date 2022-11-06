@@ -118,7 +118,7 @@ button{
 a:not(.btn--remix):visited {
   font-family: HK Grotesk;
   font-style: normal;
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.1rem;
   color: #000;
   text-decoration: none;
@@ -189,10 +189,10 @@ h1 {
   margin-left: 150px;
   margin-right: 150px;
 }
-.page h1 {
-  font-size: 48px;
-}
 
+.page h1 {
+  font-size: 55px;
+}
 .page p {
   line-height: 1.5;
   margin-left: 150px;
@@ -492,6 +492,11 @@ img{
   
 }
 
+.column1 {
+  flex: 10%;
+  padding: 10px;
+}
+
 /*  image banners*/
 
   #banner-home{
@@ -534,7 +539,7 @@ img{
     z-index: -1;
     opacity: 0.7;
     text-align: center;
-     background-image: url("https://www.nme.com/wp-content/uploads/2016/09/2013DoNotUse_OrangeJuice_PeterMcArthur161013.jpg");
+     background-image: url("https://images.foxtv.com/static.foxla.com/www.foxla.com/content/uploads/2021/07/932/524/GettyImages-486800029.jpg?ve=1&tl=1");
     
   }
 
