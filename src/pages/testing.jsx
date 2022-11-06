@@ -60,21 +60,25 @@ export default function Testing() {
       
     <a href="/jazz"><div class="jumbotron">
       <img src="https://cdn.stmarytx.edu/wp-content/uploads/2016/11/Rufus-Reid.jpg"></img>
-    <h2>Jazz            </h2>
+    <h2 id="genre-title">Jazz            </h2>
     <p>Description</p>
      </div></a>
       
       <a href="/classical"><div class="jumbotron">
         <img src="https://d2d5f3568fvb9s.cloudfront.net/wp-content/uploads/2020/05/22163339/56551745_2344293688995192_4029564593717116928_o.jpg"></img>
-    <h2>Classical             </h2>
+    <h2 id="genre-title">Classical             </h2>
     <p>Description</p>
      </div></a>
        
        <a href="/country"><div class="jumbotron">
           <img src="https://townsquare.media/site/204/files/2019/01/William-Michael-Morgan-Twitter.gif?w=980&q=75"></img>
-    <h2>Country             </h2>
+    <h2 id="genre-title">Country             </h2>
     <p>Description</p>
      </div></a>
+      
+      <div class="container-fluid genrebutton">
+          <img id="genre-image" src="https://townsquare.media/site/204/files/2019/01/William-Michael-Morgan-Twitter.gif?w=980&q=75"></img>
+      </div>
 
       
         </div>

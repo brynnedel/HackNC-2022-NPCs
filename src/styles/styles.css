@@ -221,22 +221,24 @@ h2 {
   text-align: center;
   border-radius: 40px;
   width: 120vh;
-  color:#ffffff;
+  color: white;
+  background-color:#4B9CD3;
+  opacity: 
 
 }
 
 .jumbotron:hover{
   color: #FFFFFF;
-  background-color:#007FAE ;
+  background-color:#2b7bb1 ;
   font-size: 20px;
 }
 
 #genre-title{
-  color: black;
+  color: white;
 }
 #genre-title:hover{
   font-size:50px;
-  color: #ffffff;
+  color: white;
 }
 
 a{
