@@ -227,6 +227,11 @@ h2 {
 .jumbotron:hover{
   color: black;
   background-color:#ffffff ;
+  font-size: 20px;
+}
+#genre-title:hover{
+  font-size:50px;
+  color: #ee6c4d;
 }
 
 a{
@@ -278,12 +283,24 @@ img{
   
 }
 
+
+/*  genre card- jumbotron animation */
 .animation{
   background-color: white;
   height: 100vh;
   width: 100vh;
   display: flex;
 }
+
+
+
+
+
+
+
+
+
+
 
 
 /* keyframes  animations*/
