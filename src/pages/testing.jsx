@@ -5,7 +5,7 @@ export default function Testing() {
   return(
     <div classname="page">
       
-      <div class="container-fluid">
+      <div class="container-fluid banner">
       <h1 class="genre-title">
         <span class="change-color">G</span>
         <span class="change-color">e</span>
