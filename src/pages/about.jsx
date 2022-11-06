@@ -27,21 +27,21 @@ export default function About() {
         <span class="change-color">e</span>
        
       </h1>
-      <p >
+      <h3 >
         Welcome to the UNC-CH Artist finder. where you can instantly find artists in the
         Chapel Hill area, connect, and book them for events. 
         
         If you are an up and coming artist in the area, you can also input your own information
         through the ""LINK"" Artists page!
-      </p>
-      <p>
+      </h3>
+      <h3>
         Please use the <strong><a href="/testing">Genres</a></strong> page to navigate through 
         filters and to input new artists 
         around the Chapel Hill area. 
-      </p>
-      <p>
+      </h3>
+      <h3>
         Enjoy your musical journey!
-      </p>
+      </h3>
       
        <img  class="unclogo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/North_Carolina_Tar_Heels_logo.svg/1200px-North_Carolina_Tar_Heels_logo.svg.png">
         </img>

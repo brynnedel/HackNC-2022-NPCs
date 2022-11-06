@@ -120,7 +120,7 @@ a:not(.btn--remix):visited {
   border-style: none;
 }
 .footer a:hover {
-  background: var(--color-primary);
+  color:#4B9CD3;
 }
 
 .footer .links {
@@ -162,8 +162,8 @@ h1 {
   font-weight: bold;
   font-size: 100px;
   line-height: 105%;
-  margin-left: 130px;
-  margin-right: 130px;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 .page h1 {
   font-size: 48px;
