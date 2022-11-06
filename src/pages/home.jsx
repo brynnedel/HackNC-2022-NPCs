@@ -60,10 +60,16 @@ export default function Home() {
       <div class="column"><h4>Text</h4></div>
              <div class="column"></div>
       </div>
-        
+        <h3><strong>Featured Artists</strong></h3>
+         <div class="row">
+      <div class="column"><img href="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/Screen%20Shot%202022-11-06%20at%2012.25.42%20AM.png?v=1667708783985"></img></div>
+             <div class="column"></div>
+      </div>
       </div>
       
     </>
   );
+
+
 }
 

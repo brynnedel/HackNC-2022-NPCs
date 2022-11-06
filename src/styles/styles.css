@@ -99,6 +99,10 @@ button{
 
 
 /* Navigation grid */
+
+#name{
+  margin-left: 150px;
+}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -108,6 +112,7 @@ button{
   flex-wrap: wrap;
   border-top: 4px solid #fff;
 }
+
 
 .footer a:not(.btn--remix):link,
 a:not(.btn--remix):visited {
@@ -122,15 +127,25 @@ a:not(.btn--remix):visited {
 }
 .footer a:hover {
   color:#4B9CD3;
+  letter-spacing: 3px;
+  
 }
 
 .footer .links {
   padding: 0.5rem 1rem 1.5rem;
   white-space: nowrap;
+  
 }
 
 .divider {
   padding: 0 1rem;
+}
+
+.line-divider {
+  padding: 0 1rem;
+  border-bottom: solid;
+  margin-left: 150px;
+  margin-right: 150px;
 }
 /******************************************************************************
 END Glitch hello-app default styles

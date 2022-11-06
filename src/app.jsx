@@ -32,9 +32,9 @@ export default function Home() {
         <div className="links">
           <h2 id="name">Navigation Bar</h2>
           <Link href="/">Home</Link>
-          <span className="divider">|</span>
+          <span className="divider"></span>
           <Link href="/about">About</Link>
-          <span className="divider">|</span>
+          <span className="divider"></span>
           <Link href="/testing">Genres</Link>
    
         </div>

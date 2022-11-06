@@ -72,7 +72,11 @@ export default function Testing() {
         </a>
 
       <div class="divider"></div>
-    
+       <a href="/slideshowtest">
+      <div class="container" id="genre-indie">
+        <h1 id="genre-name">testing</h1>
+      </div>
+        </a>
    
       
     </div>
