@@ -264,10 +264,7 @@ a:hover{
   
 
 /* genre page */
-.genre-title{
-  margin-left: 120px;
-  
-}
+
 
 
 /*   pictures */
@@ -324,7 +321,7 @@ img{
     transform: translateY(50%);
   }
   to{
-    transform: translateX(400%);
+    transform: translateX(350%);
   }
   
 }
@@ -334,7 +331,7 @@ img{
     transform:rotate(0deg);
   }
   to {
-    transform:rotate(360deg);
+    transform:rotate(300deg);
   }
   }
 
@@ -345,7 +342,7 @@ img{
     animation-duration: 10s;
   width: 40vh;
   height: 30vh;
-  animation-iteration-count: 4;
+  animation-iteration-count: 8;
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
   margin-top: 60px;
