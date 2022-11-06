@@ -118,6 +118,7 @@ a:not(.btn--remix):visited {
   color: #000;
   text-decoration: none;
   border-style: none;
+  margin-left: 150px;
 }
 .footer a:hover {
   color:#4B9CD3;
@@ -478,7 +479,7 @@ img{
 /*  image banners*/
 
   #banner-home{
-    width: 80vw;
+    width: 60vw;
     height: 30vh;
     object-fit: cover;
     z-index: -1;
@@ -489,13 +490,24 @@ img{
   }
 
  #banner-hiphop{
-    width: 80vw;
+    width: 60vw;
     height: 30vh;
     object-fit: cover;
     z-index: -1;
     opacity: 0.7;
     text-align: center;
-     background-image: url("https://townsquare.media/site/623/files/2020/01/GettyImages-1202179128.jpg?w=980&q=75");
+     background-image: url("https://thumbs.dreamstime.com/b/unidentified-b-boy-break-dances-perform-street-crowd-hip-hop-battle-informal-dance-meet-florence-italy-september-198058703.jpg");
+    
+  }
+
+ #banner-indie{
+    width: 60vw;
+    height: 30vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+    text-align: center;
+     background-image: url("https://www.nme.com/wp-content/uploads/2016/09/2013DoNotUse_OrangeJuice_PeterMcArthur161013.jpg");
     
   }
 
