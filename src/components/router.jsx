@@ -4,6 +4,12 @@ import Home from "../pages/home";
 import About from "../pages/about";
 import Testing from "../pages/testing";
 import Artists from "../pages/artists";
+import Hiphop from "../pages/hiphop";
+import Indie from "../pages/indie";
+import Jazz from '../pages/jazz';
+import Pop from '../pages/pop';
+import RandB from '../pages/rnb';
+import Rock from '../pages/rock';
 /**
 * The router is imported in app.jsx
 *
@@ -18,5 +24,11 @@ export default () => (
       <Route path="/about" component={About} />
       <Route path="/testing" component={Testing} />
       <Route path="/artists" component={Artists} />
+      <Route path="/hiphop" component={Hiphop} />
+      <Route path="/indie" component={Indie} />
+      <Route path="/jazz" component={Jazz} />
+      <Route path="/pop" component={Pop} />
+      <Route path="/rnb" component={RandB} />
+      <Route path="/rock" component={Rock} />
     </Switch>
 );
