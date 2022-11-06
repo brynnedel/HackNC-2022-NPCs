@@ -3,8 +3,7 @@ import React, {useState} from 'react';
 function ArtistsForm(props) {
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');
-  const [genre, setGenre] = useState('');
-  const [email, setEmail] = useState('');
+  const [social, setSocial] = useState('');
   
   const changeName = (event) => {
     setName(event.target.value);
@@ -14,12 +13,8 @@ function ArtistsForm(props) {
     setLocation(event.target.value);
   };
   
-  const changeGenre = (event) => {
-    setGenre(event.target.value);
-  };
-  
-  const changeEmail = (event) => {
-    setEmail(event.target.value);
+  const changeSocial = (event) => {
+    setSocial(event.target.value);
   };
   
   const transferValue = (event) => {
@@ -27,8 +22,7 @@ function ArtistsForm(props) {
     const val = {
       name,
       location,
-      genre,
-      email,
+      social,
     };
     props.func(val);
     clearState();
@@ -37,8 +31,7 @@ function ArtistsForm(props) {
   const clearState = () => {
     setName('');
     setLocation('');
-    setGenre('');
-    setEmail('');
+    setSocial('');
   };
   
   return (
@@ -48,10 +41,8 @@ function ArtistsForm(props) {
       <input type="text" value={name} onChange={changeName}/>
       <label>Location</label>
       <input type="text" value={location} onChange={changeLocation}/>
-      <label>Genre</label>
-      <input type="text" value={genre} onChange={changeGenre}/>
-      <label>Email</label>
-      <input type="text" value={email} onChange={changeEmail}/>
+      <label>Social Media</label>
+      <input type="text" value={social} onChange={changeSocial}/>
       <button onClick={transferValue}>Submit</button>
       
     </div>

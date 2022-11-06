@@ -3,7 +3,6 @@ import { Switch, Route, Router } from "wouter";
 import Home from "../pages/home";
 import About from "../pages/about";
 import Testing from "../pages/testing";
-import Artists from "../pages/artists";
 import Rnb from "../pages/rnb";
 import Hiphop from "../pages/hiphop";
 import Indie from "../pages/indie";
@@ -25,7 +24,6 @@ export default () => (
       <Route path="/" component={Home} />
       <Route path="/about" component={About} />
       <Route path="/testing" component={Testing} />
-      <Route path="/artists" component={Artists} />
       <Route path="/rnb" component={Rnb} />
       <Route path="/hiphop" component={Hiphop}/>
       <Route path="/indie" component={Indie}/>

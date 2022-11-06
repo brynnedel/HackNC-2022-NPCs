@@ -10,8 +10,7 @@ function TableData() {
       <tr>
         <td>{info.name}</td>
         <td>{info.location}</td>
-        <td>{info.genre}</td>
-        <td>{info.email}</td>
+        <td>{info.social}</td>
       </tr>
     );
   });
@@ -30,8 +29,7 @@ function TableData() {
           <tr>
             <th>Name</th>
             <th>Location</th>
-            <th>Genre</th>
-            <th>Email</th>
+            <th>Social Media</th>
           </tr>
         </thead>
         <tbody>{tableRows}</tbody>

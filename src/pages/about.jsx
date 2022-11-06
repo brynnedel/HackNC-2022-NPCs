@@ -36,8 +36,8 @@ export default function About() {
       </p>
       <p>
         Please use the <strong><a href="/testing">Genres</a></strong> page to navigate through 
-        filters, and the <strong><a href="/artists">Artists</a></strong> page to input new artists 
-        in the Chapel Hill area. 
+        filters and to input new artists 
+        around the Chapel Hill area. 
       </p>
       <p>
         Enjoy your musical journey!

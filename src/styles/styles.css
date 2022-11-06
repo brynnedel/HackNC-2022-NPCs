@@ -155,7 +155,7 @@ body {
 
 /* Page titles */
 h1 {
-  color: #1F5C70;
+  color: #4B9CD3;
   font-family: HK Grotesk;
   font-style: normal;
   font-weight: bold;
@@ -176,7 +176,7 @@ h1 {
 }
 
 .page a {
-  color: #000;
+  color: #0000;
 }
 
 .page a:hover {
@@ -209,7 +209,7 @@ h1 {
   font-size: 1rem;
 }
 h2 {
-  color: #1F5C70;
+  color: #007FAE;
 }
 
 .divider{
@@ -221,22 +221,27 @@ h2 {
   text-align: center;
   border-radius: 40px;
   width: 120vh;
+  color:#ffffff;
 
 }
 
 .jumbotron:hover{
-  color: black;
-  background-color:#ffffff ;
+  color: #FFFFFF;
+  background-color:#007FAE ;
   font-size: 20px;
+}
+
+#genre-title{
+  color: black;
 }
 #genre-title:hover{
   font-size:50px;
-  color: #ee6c4d;
+  color: #ffffff;
 }
 
 a{
   text-decoration: none;
-  color:#1F5C70;
+  color:#007FAE;
   justify-content: center;
   text-align:center;
   height:100px;
@@ -264,7 +269,7 @@ a:hover{
 
 
 .change-color:hover{
-  color: #ee6c4d;
+  color: #13294B;
 }
 
 .space{
