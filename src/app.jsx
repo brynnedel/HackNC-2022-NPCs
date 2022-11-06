@@ -30,8 +30,8 @@ export default function Home() {
       <Seo />
       <footer className="footer">
         <div className="links">
-          <h2 id="name">Navigation Bar</h2>
-          <Link href="/">Home</Link>
+        
+          <Link href="/"><b>Home</b></Link>
           <span className="divider"></span>
           <Link href="/about">About</Link>
           <span className="divider"></span>

@@ -7,7 +7,8 @@ export default function About() {
   return (
     <div className="page">
       
-      <div class="line-divider"></div>
+     
+      
       <h1 class="title">
          <span class="change-color">W</span>
         <span class="change-color">e</span>

@@ -31,12 +31,12 @@ export default function Home() {
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <animated.div onMouseEnter={trigger} style={style}>
-        <img
+      <a href= "/testing">  <img
           src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
           className="illustration"
           onClick={handleChangeHello}
           alt="Illustration click to change language"
-        />
+                             /> </a>
       </animated.div>
       <div className="navigation">
         {/* When the user hovers over this text, we apply the wiggle function to the image style */}
@@ -57,16 +57,58 @@ export default function Home() {
     
         
            <div class="row">
-      <div class="column"><h4>Text</h4></div>
+      <div class="column"><h4></h4></div>
              <div class="column"></div>
       </div>
         <h3><strong>Featured Artists</strong></h3>
-         <div class="row">
-      <div class="column"><img href="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/Screen%20Shot%202022-11-06%20at%2012.25.42%20AM.png?v=1667708783985"></img></div>
-             <div class="column"></div>
       </div>
-      </div>
+      <div class="row">
+        <div class="column">
       
+          <animated.div onMouseEnter={trigger} style={style}>
+        <img
+          src="https://cdns-images.dzcdn.net/images/artist/9a2bc8d4c6945ca00f9c278849fe4c27/500x500.jpg"
+          //https://www.instagram.com/westonestate/?hl=en
+          className="illustration"
+          onClick={handleChangeHello}
+          alt="Illustration click to change language"
+        />
+      </animated.div>
+      </div>
+        
+        <div class="column">
+      <animated.div onMouseEnter={trigger} style={style}>
+        <img
+          src="https://s3.r29static.com/bin/entry/461/x,80/1975578/image.jpg"
+          //https://www.instagram.com/annaclendening/
+          className="illustration"
+          onClick={handleChangeHello}
+          alt="Illustration click to change language"
+        />
+      </animated.div>
+      </div>
+        
+        <div class="column">
+      <animated.div onMouseEnter={trigger} style={style}>
+        <img
+          src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
+          className="illustration"
+          onClick={handleChangeHello}
+          alt="Illustration click to change language"
+        />
+      </animated.div>
+      </div>
+        <div class="column">
+      <animated.div onMouseEnter={trigger} style={style}>
+        <img
+          src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
+          className="illustration"
+          onClick={handleChangeHello}
+          alt="Illustration click to change language"
+        />
+      </animated.div>
+      </div>
+      </div>
     </>
   );
 

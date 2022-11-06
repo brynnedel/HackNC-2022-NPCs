@@ -144,6 +144,7 @@ a:not(.btn--remix):visited {
 .line-divider {
   padding: 0 1rem;
   border-bottom: solid;
+  border-bottom-color: #4B9CD3;
   margin-left: 150px;
   margin-right: 150px;
 }
@@ -526,4 +527,25 @@ img{
     
   }
 
+ #banner-rnb{
+    width: 60vw;
+    height: 30vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+    text-align: center;
+     background-image: url("https://www.nme.com/wp-content/uploads/2016/09/2013DoNotUse_OrangeJuice_PeterMcArthur161013.jpg");
+    
+  }
+
+ #banner-classical{
+    width: 60vw;
+    height: 30vh;
+    object-fit: cover;
+    z-index: -1;
+    opacity: 0.7;
+    text-align: center;
+     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcj08Sp7E0AMvaUh0OivCVHU2hA7U1VEWQoFS-k5M3-aR50x4n6jjrSqaJ1Q6YX3ZkDQE&usqp=CAU");
+    
+  }
 
