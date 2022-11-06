@@ -54,11 +54,14 @@ export default function Home() {
           <div class="divider"></div>
           <div class="divider"></div>
         
+        <div class="container-fluid">
+          <img id="banner-image"src="https://variancemagazine.com/images/weston-estate-84032.jpg"></img>
+        </div>
         <h2>h</h2>
         
            <div class="row">
       <div class="column"><h4>Text</h4></div>
-         <div class="column"><h2>Image</h2></div>
+             <div class="column"></div>
       </div>
         
       </div>
