@@ -2,7 +2,6 @@ import * as React from "react";
 
 export default function About() {
   
-  // discord link: https://discord.gg/ZnHhnp3V
   
   return (
     <div className="page">
