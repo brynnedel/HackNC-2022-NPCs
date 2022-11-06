@@ -352,8 +352,15 @@ img{
   text-align: center;
   width: 100vh;
   height: 50vh;
+  border-radius: 30px;
   background-image: url("https://townsquare.media/site/204/files/2019/01/William-Michael-Morgan-Twitter.gif?w=980&q=75");
 }
+
+#genre-button:hover{
+  color: #4B9CD3;
+}
+
+
 #genre-image{
   object-fit: cover;
  
@@ -362,4 +369,7 @@ img{
 #genre-name{
   padding-top: 130px;
   text-align: center;
+}
+#genre-name:hover{
+  letter-spacing: 5px;
 }

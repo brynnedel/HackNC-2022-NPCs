@@ -16,7 +16,7 @@ yarray.observeDeep(() => {
 function TableData() {
   const [artistData, setArtistData] = useState(jsonData);
   
-  const tableRows = artistData.map((info) => {
+  const tableRows = yarray.map((info) => {
     return (
       <tr>
         <td>{info.name}</td>
@@ -31,7 +31,7 @@ function TableData() {
     const updatedArtistData = [...artistData];
     console.log(updatedArtistData);
     console.log(data);
-    yarray.push(data);
+    yarray.push([data]);
     setArtistData(updatedArtistData);
   };
   
