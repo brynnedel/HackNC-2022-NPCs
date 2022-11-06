@@ -156,6 +156,12 @@ body {
 
 /* Page titles */
 
+h3{
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 30px;
+}
+
 h1 {
   color: #4B9CD3;
   font-family: HK Grotesk;

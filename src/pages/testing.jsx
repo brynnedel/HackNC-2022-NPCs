@@ -34,7 +34,7 @@ export default function Testing() {
       </div>
         </a>
       
-        <a href="/indie" id="genre-button-mask">
+        <a href="/indie">
       <div class="container" id="genre-indie">
         <h1 id="genre-name">Indie</h1>
       </div>
