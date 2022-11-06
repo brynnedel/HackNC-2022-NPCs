@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import ArtistsForm from './form';
+import ArtistsForm from '../components/table';
 import jsonData from './data.json';
 
 function TableData() {
@@ -14,7 +14,7 @@ function TableData() {
         <td>{info.email}</td>
       </tr>
     );
-  })
+  });
   
   const addRows = (data) => {
     const totalArtists = artistData.length;
@@ -38,7 +38,7 @@ function TableData() {
       </table>
       <ArtistsForm func = {addRows} />
     </div>
-  )
+  );
 }
 
 export default TableData;
