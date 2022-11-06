@@ -1,13 +1,6 @@
 import React, {useState} from 'react';
 import ArtistsForm from '../components/table';
 import jsonData from './data.json';
-import * as Y from 'yjs';
-import { WebrtcProvider } from 'y-webrtc';
-
-const ydoc = new Y.Doc()
-// clients connected to the same room-name share document updates
-const provider = new WebrtcProvider('your-room-name', ydoc, { password: 'optional-room-password' })
-const yarray = ydoc.getArray('array')
 
 function TableData() {
   const [artistData, setArtistData] = useState(jsonData);
@@ -25,7 +18,7 @@ function TableData() {
   const addRows = (data) => {
     const totalArtists = artistData.length;
     const updatedArtistData = [...artistData];
-    yarray.push(data);
+    updatedArtistData.push(data);
     setArtistData(updatedArtistData);
   };
   

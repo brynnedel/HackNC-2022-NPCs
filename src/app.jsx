@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Router, Link } from "wouter";
-import * as Y from 'yjs';
-import { WebrtcProvider } from 'y-webrtc';
 
 /**
 * This code defines the react app
@@ -21,7 +19,6 @@ import PageRouter from "./components/router.jsx";
 
 // The component that adds our Meta tags to the page
 import Seo from './components/seo.jsx';
-
 
 // Home function that is reflected across the site
 export default function Home() {
