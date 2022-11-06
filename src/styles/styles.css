@@ -119,7 +119,7 @@ a:not(.btn--remix):visited {
   border-style: none;
 }
 .footer a:hover {
-  background: var(--color-primary);
+  color: #ee6c4d;
 }
 
 .footer .links {
