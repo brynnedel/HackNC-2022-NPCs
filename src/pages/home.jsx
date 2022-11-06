@@ -5,7 +5,7 @@ import { Link } from "wouter";
 
 // Our language strings for the header
 const strings = [
-  "Artists in CH"
+  "Artists in Chapel Hill!"
 ];
 
 /**

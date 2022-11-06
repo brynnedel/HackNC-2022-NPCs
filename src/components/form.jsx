@@ -26,9 +26,8 @@ function TableData() {
       </tr>
     );
   });
-  useEffect(()=> {
-    setArrayValue(yarray.toArray());
-  }, []);
+  
+  
   const addRows = (data) => {
     const totalArtists = artistData.length;
     const updatedArtistData = [...artistData];
