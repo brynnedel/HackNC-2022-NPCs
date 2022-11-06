@@ -9,6 +9,10 @@ const ydoc = new Y.Doc()
 const provider = new WebrtcProvider('your-room-name', ydoc, { password: 'optional-room-password' })
 const yarray = ydoc.getArray('array')
 
+yarray.observeDeep(() => {
+  console.log('yarray updated: ', yarray.toJSON())
+})
+
 function TableData() {
   const [artistData, setArtistData] = useState(jsonData);
   
@@ -25,6 +29,8 @@ function TableData() {
   const addRows = (data) => {
     const totalArtists = artistData.length;
     const updatedArtistData = [...artistData];
+    console.log(updatedArtistData);
+    console.log(data);
     yarray.push(data);
     setArtistData(updatedArtistData);
   };
