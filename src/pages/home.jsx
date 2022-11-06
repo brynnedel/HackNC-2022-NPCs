@@ -43,7 +43,7 @@ export default function Home() {
         <animated.div onMouseEnter={trigger}>. </animated.div>
       </div>
       <div className="instructions">
-        <h2>Using this website</h2>
+        <h3 >Using this website</h3>
         <p>
           This is the <strong>UNC-CH Artist Finder</strong> project. You can use
           it to find and filter artist by genre to connect and book them for
@@ -54,8 +54,8 @@ export default function Home() {
           <div class="divider"></div>
           <div class="divider"></div>
         
-        <div class="container-fluid">
-          <img id="banner-image"src="https://variancemagazine.com/images/weston-estate-84032.jpg"></img>
+        <div id="banner-home">
+        <h1>Featured artists</h2>
         </div>
         <h2>h</h2>
         
