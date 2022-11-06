@@ -346,3 +346,16 @@ img{
 .unclogo:hover{
   
 }
+
+
+#genre-button{
+width: 100vh;
+height: 50vh;
+  display: flex;
+  text-align: center;
+  background-image: url("paper.gif");
+}
+#genre-image{
+  object-fit: cover;
+ 
+}

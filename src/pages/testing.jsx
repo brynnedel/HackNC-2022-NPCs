@@ -76,9 +76,12 @@ export default function Testing() {
     <p>Description</p>
      </div></a>
       
-      <div class="container-fluid genrebutton">
+      
+      <div class="container" id="genre-button">
           <img id="genre-image" src="https://townsquare.media/site/204/files/2019/01/William-Michael-Morgan-Twitter.gif?w=980&q=75"></img>
       </div>
+      
+      
 
       
         </div>
