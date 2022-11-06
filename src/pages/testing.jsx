@@ -3,7 +3,7 @@ import * as React from "react";
 export default function Testing() {
   return (
     <div classname="page">
-      <div  class="row justify-content-center">
+      <div  class=" justify-content-center">
       <div class="container-fluid">
       <h1 class="genre-title">
           <span class="change-color">G</span>
@@ -73,6 +73,11 @@ export default function Testing() {
 
       <div class="divider"></div>
     
+      <div class="row">
+      <div class="column"><h2>o</h2></div>
+         <div class="column"><h2>o</h2></div>
+      </div>
+      
     </div>
   );
 }
