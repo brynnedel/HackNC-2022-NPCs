@@ -3,7 +3,8 @@ import React, {useState} from 'react';
 function ArtistsForm(props) {
   const [name, setName] = useState('');
   const [location, setLocation] = useState('');
-  const [instagram, setInstagram] = useState('');
+  const [genre, setGenre] = useState('');
+  const [email, setEmail] = useState('');
   
   const changeName = (event) => {
     setName(event.target.value);
@@ -13,8 +14,12 @@ function ArtistsForm(props) {
     setLocation(event.target.value);
   };
   
-  const changeInstagram = (event) => {
-    setInstagram(event.target.value);
+  const changeGenre = (event) => {
+    setGenre(event.target.value);
+  };
+  
+  const changeEmail = (event) => {
+    setEmail(event.target.value);
   };
   
   const transferValue = (event) => {
@@ -22,7 +27,8 @@ function ArtistsForm(props) {
     const val = {
       name,
       location,
-      instagram,
+      genre,
+      email,
     };
     props.func(val);
     clearState();
@@ -31,7 +37,8 @@ function ArtistsForm(props) {
   const clearState = () => {
     setName('');
     setLocation('');
-    setInstagram('');
+    setGenre('');
+    setEmail('');
   };
   
   return (
@@ -41,8 +48,10 @@ function ArtistsForm(props) {
       <input type="text" value={name} onChange={changeName}/>
       <label>Location</label>
       <input type="text" value={location} onChange={changeLocation}/>
-      <label>Instagram</label>
-      <input type="text" value={instagram} onChange={changeInstagram}/>
+      <label>Genre</label>
+      <input type="text" value={genre} onChange={changeGenre}/>
+      <label>Email</label>
+      <input type="text" value={email} onChange={changeEmail}/>
       <button onClick={transferValue}>Submit</button>
       
     </div>

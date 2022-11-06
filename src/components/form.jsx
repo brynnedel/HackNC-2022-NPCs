@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+ import React, {useState} from 'react';
 import ArtistsForm from '../components/table';
 import jsonData from './data.json';
 
@@ -10,7 +10,8 @@ function TableData() {
       <tr>
         <td>{info.name}</td>
         <td>{info.location}</td>
-        <td>{info.instagram}</td>
+        <td>{info.genre}</td>
+        <td>{info.email}</td>
       </tr>
     );
   });
@@ -30,7 +31,8 @@ function TableData() {
           <tr>
             <th>Name</th>
             <th>Location</th>
-            <th>Instagram</th>
+            <th>Genre</th>
+            <th>Email</th>
           </tr>
         </thead>
         <tbody>{tableRows}</tbody>

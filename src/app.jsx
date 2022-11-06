@@ -33,6 +33,8 @@ export default function Home() {
           <Link href="/about">About</Link>
           <span className="divider">|</span>
           <Link href="/testing">Genres</Link>
+          <span className="divider">|</span>
+          <Link href="/artists">Artists</Link>
         </div>
 
       </footer>
