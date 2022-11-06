@@ -5,7 +5,7 @@ function Jazz() {
   return (
     <div classname="page">
       <h1>Jazz</h1>
-      <TableData />
+      <TableData genre="Jazz"/>
     </div>
   );
 }

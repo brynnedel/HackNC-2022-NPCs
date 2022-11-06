@@ -5,7 +5,7 @@ function Classical() {
   return (
     <div classname="page">
       <h1>Classical</h1>
-      <TableData />
+      <TableData genre="Classical"/>
     </div>
   );
 }

@@ -7,15 +7,17 @@ import { WebrtcProvider } from 'y-webrtc';
 const ydoc = new Y.Doc()
 // clients connected to the same room-name share document updates
 const provider = new WebrtcProvider('your-room-name', ydoc, { password: 'optional-room-password' })
-const yarray = ydoc.getArray('array')
+
 
 // yarray.observeDeep(() => {
 //   console.log('yarray updated: ', yarray.toJSON())
 // })
 
-function TableData() {
+function TableData(props) {
   const [artistData, setArtistData] = useState([{"name": "", "location": "", "social": ""}]);
-  const [arrayValue, setArrayValue] = useState(yarray.toArray());
+  console.log(props.genre);
+  const yarray = ydoc.getArray(props.genre)
+  // const [arrayValue, setArrayValue] = useState(yarray.toArray());
   
   const tableRows = yarray.map((info) => {
     return (
@@ -34,7 +36,7 @@ function TableData() {
     console.log(updatedArtistData);
     console.log(data);
     yarray.push([data]);
-    setArrayValue(yarray.toArray());
+    setArtistData(updatedArtistData)
   };
   
   return (
@@ -47,13 +49,7 @@ function TableData() {
             <th>Social Media</th>
           </tr>
         </thead>
-        <tbody>{yarray.map((info) => {
-            <tr>
-              <td>{info.name}</td>
-              <td>{info.location}</td>
-              <td>{info.social}</td>
-            </tr>
-          })}
+        <tbody>{tableRows}
         </tbody>
       </table>
       <ArtistsForm func = {addRows} />

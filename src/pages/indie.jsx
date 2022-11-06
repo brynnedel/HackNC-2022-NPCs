@@ -5,7 +5,7 @@ function Indie() {
   return (
     <div classname="page">
       <h1>Indie</h1>
-      <TableData />
+      <TableData genre="Indie"/>
     </div>
   );
 }

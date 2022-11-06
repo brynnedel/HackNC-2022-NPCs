@@ -5,7 +5,7 @@ function Rnb() {
   return (
     <div classname="page">
       <h1>R&B</h1>
-      <TableData />
+      <TableData genre="Rnb"/>
     </div>
   );
 }
