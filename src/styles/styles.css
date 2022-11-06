@@ -348,7 +348,7 @@ img{
 }
 
 
-#genre-button{
+#genre-country{
   margin-top: 40px;
   text-align: center;
   margin-bottom: 40px;
@@ -358,6 +358,65 @@ img{
   background-image: url("https://townsquare.media/site/204/files/2019/01/William-Michael-Morgan-Twitter.gif?w=980&q=75");
 }
 
+#genre-hiphop{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-image: url("https://occ-0-114-3211.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABdX5YxxPgr7XGq9kMOCfJh6GHhX3DIcf44obtk5NKgAtPCGUi3Qtc8jTujqipM92wd4IBjI_xjjht3LL7UhvL01KpXO-7sxKgrFR.jpg?r=7bc");
+}
+
+#genre-indie{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-image: url("https://images.squarespace-cdn.com/content/v1/561d7296e4b0e681f07991b8/1563476358227-RRFKI6TM66EILSC21U8X/pile-audiotree-farout-17.jpg");
+}
+
+#genre-rnb{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-image: url("https://media.lasvegasweekly.com/img/photos/2022/05/17/TIMBALAND_VIRISAYONG_LOVERSANDFRIENDS22_8F0A9995_ZvjCUBL_t1000.JPG?c76bf34eada957f64a0b14990027a576ff9bf379");
+}
+
+#genre-classical{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-image: url("https://www.kennedy-center.org/globalassets/nso/2022-2023/76877_nso_noseda-strauss_eventimage.jpg?width=768&quality=70");
+}
+
+#genre-jazz{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-image: url("https://www.kennedy-center.org/globalassets/nso/2022-2023/76877_nso_noseda-strauss_eventimage.jpg?width=768&quality=70");
+}
+
+#genre-pop{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-image: url("https://www.kennedy-center.org/globalassets/nso/2022-2023/76877_nso_noseda-strauss_eventimage.jpg?width=768&quality=70");
+}
 #genre-button:hover{
   color: #4B9CD3;
   

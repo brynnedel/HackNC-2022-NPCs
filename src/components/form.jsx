@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import ArtistsForm from '../components/table';
 import jsonData from './data.json';
 import * as Y from 'yjs';
@@ -14,8 +14,8 @@ yarray.observeDeep(() => {
 })
 
 function TableData() {
-  const [artistData, setArtistData] = useState(jsonData);
-  
+  const [artistData, setArtistData] = useState([{"name": "", "location": "", "social": ""}]);
+
   const tableRows = yarray.map((info) => {
     return (
       <tr>

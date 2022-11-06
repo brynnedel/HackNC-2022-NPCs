@@ -5,12 +5,12 @@ export default function Testing() {
     <div classname="page">
       <div class="container-fluid banner">
         <h1 class="genre-title">
-          <span class="change-color">G</span>
-          <span class="change-color">e</span>
-          <span class="change-color">n</span>
-          <span class="change-color">r</span>
-          <span class="change-color">e</span>
-          <span class="change-color">s</span>
+          <center><span class="change-color">G</span></center>
+          <center><span class="change-color">e</span></center>
+          <center><span class="change-color">n</span></center>
+          <center><span class="change-color">r</span></center>
+          <center><span class="change-color">e</span></center>
+          <center><span class="change-color">s</span></center>
         </h1>
       </div>
 
@@ -83,14 +83,45 @@ export default function Testing() {
       </a>
 
       <a href="#" id="genre-button-mask">
-      <div class="container" id="genre-button">
+      <div class="container" id="genre-country">
         <h1 id="genre-name">Country</h1>
       </div>
         </a>
       
        <a href="#" id="genre-button-mask">
-      <div class="container" id="genre-button">
+      <div class="container" id="genre-hiphop">
         <h1 id="genre-name">Hip Hop</h1>
+      </div>
+        </a>
+      
+        <a href="#" id="genre-button-mask">
+      <div class="container" id="genre-indie">
+        <h1 id="genre-name">Indie</h1>
+      </div>
+        </a>
+      
+      
+        <a href="#" id="genre-button-mask">
+      <div class="container" id="genre-rnb">
+        <h1 id="genre-name">Rhythm & Blues</h1>
+      </div>
+        </a>
+      
+       <a href="#" id="genre-button-mask">
+      <div class="container" id="genre-classical">
+        <h1 id="genre-name">Classical  </h1>
+      </div>
+        </a>
+      
+       <a href="#" id="genre-button-mask">
+      <div class="container" id="genre-jazz">
+        <h1 id="genre-name">Jazz</h1>
+      </div>
+        </a>
+      
+       <a href="#" id="genre-button-mask">
+      <div class="container" id="genre-pop">
+        <h1 id="genre-name">Pop</h1>
       </div>
         </a>
       
