@@ -28,14 +28,14 @@ export default function About() {
        
       </h1>
       <h3 >
-        Welcome to the UNC-CH Artist finder. where you can instantly find artists in the
+        Welcome to the UNC Chapel Hill Artist finder. where you can instantly find artists in the
         Chapel Hill area, connect, and book them for events. 
         
         If you are an up and coming artist in the area, you can also input your own information
         through the ""LINK"" Artists page!
       </h3>
       <h3>
-        Please use the <strong><a href="/testing">Genres</a></strong> page to navigate through 
+        Please use the <strong><h href= "/testing">Genres</h></strong> page to navigate through 
         filters and to input new artists 
         around the Chapel Hill area. 
       </h3>

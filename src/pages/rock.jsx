@@ -5,7 +5,7 @@ function Rock() {
   return (
     <div classname="page">
       <h1>Rock</h1>
-      <TableData />
+      <TableData genre="Rock"/>
     </div>
   );
 }
