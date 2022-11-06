@@ -4,7 +4,7 @@ import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
 // Our language strings for the header
-const strings = ["Discover Artists in Chapel Hill"];
+const strings = ["Find Chapel Hill Artists"];
 
 /**
  * The Home function defines the content that makes up the main content of the Home page
@@ -27,9 +27,13 @@ export default function Home() {
     setHello(newHello);
   };
   return (
+    
     <>
+      
       <h1 className="title">{hello}</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
+       <div class="divider"></div>
+       <div class="divider"></div>
       <animated.div onMouseEnter={trigger} style={style}>
       <a href= "/testing">  <img
           src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
@@ -43,17 +47,18 @@ export default function Home() {
         <animated.div onMouseEnter={trigger}>. </animated.div>
       </div>
       <div className="instructions">
-        <h3 >Using this website</h3>
+        <h3 >Using this website:</h3>
+        
         <p>
           This is the <strong>UNC-CH Artist Finder</strong> project. You can use
           it to find and filter artist by genre to connect and book them for
           your own event. Artists, feel free to leave your information in your respective genre to get noticed!
         </p>
-        
-        <div class="divider"></div>
+             <div class="divider"></div>
           <div class="divider"></div>
-          <div class="divider"></div>
+       
         
+   
     
         
            <div class="row">
