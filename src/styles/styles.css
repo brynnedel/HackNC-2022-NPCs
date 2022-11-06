@@ -257,8 +257,16 @@ a:hover{
  
 
 
-.change-color{
-  
+.change-color:hover{
+  color: #ee6c4d;
+}
+
+.space{
+  width: 40px;
+  height: 50px;
+}
+.hide{
+  opacity: 0;
 }
 
 img{
