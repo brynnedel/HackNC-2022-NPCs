@@ -249,12 +249,7 @@ a:hover{
   
 }
 
-.banner{
-  background-color: #ee6c4d;
-  opacity: 0.2;
-  
-}
-  
+
 /*   pictures */
   
 .picture{
@@ -322,6 +317,7 @@ img{
   animation-direction: alternate;
   animation-timing-function: ease-in-out;
   margin-top: 60px;
+  margin-left: 130px;
 }
 .unclogo:hover{
   

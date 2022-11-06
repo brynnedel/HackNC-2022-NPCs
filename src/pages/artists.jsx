@@ -1,22 +1,12 @@
 import * as React from "react";
-
+import TableData from '../components/form';
 
 function Artists() {
-  
-  
-  
-  return(
-    
+  return (
     <div classname="page">
-      
-      < TableData />
-      
+      <TableData />
     </div>
-    
-  
   );
-  
-  
 }
 
 export default Artists;
