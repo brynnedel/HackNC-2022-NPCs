@@ -47,7 +47,7 @@ function TableData() {
             <th>Social Media</th>
           </tr>
         </thead>
-        <tbody>{arrayValue.map((info) => {
+        <tbody>{yarray.map((info) => {
             <tr>
               <td>{info.name}</td>
               <td>{info.location}</td>
