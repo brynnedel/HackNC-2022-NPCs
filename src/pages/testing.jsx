@@ -88,6 +88,12 @@ export default function Testing() {
       </div>
         </a>
       
+       <a href="#" id="genre-button-mask">
+      <div class="container" id="genre-button">
+        <h1 id="genre-name">Hip Hop</h1>
+      </div>
+        </a>
+      
       <h1>hi</h1>
       <div class="divider"></div>
     
