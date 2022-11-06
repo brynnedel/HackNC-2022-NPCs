@@ -4,7 +4,6 @@ import Home from "../pages/home";
 import About from "../pages/about";
 import Testing from "../pages/testing";
 import Artists from "../pages/artists";
-import Hiphop from "../pages/hiphop";
 /**
 * The router is imported in app.jsx
 *
@@ -19,6 +18,5 @@ export default () => (
       <Route path="/about" component={About} />
       <Route path="/testing" component={Testing} />
       <Route path="/artists" component={Artists} />
-      <Route path="/hiphop" component={Hiphop} />
     </Switch>
 );
