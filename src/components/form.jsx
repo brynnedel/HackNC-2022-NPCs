@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+ import React, {useState} from 'react';
 import ArtistsForm from '../components/table';
 import jsonData from './data.json';
 
@@ -21,6 +21,7 @@ function TableData() {
     const updatedArtistData = [...artistData];
     updatedArtistData.push(data);
     setArtistData(updatedArtistData);
+    localStorage.setItem('artistData', updatedArtistData);
   };
   
   return (
