@@ -32,7 +32,7 @@ export default function About() {
         Chapel Hill area, connect, and book them for events. 
         
         If you are an up and coming artist in the area, you can also input your own information
-        through the ""LINK"" Artists page!
+        through the <strong>Artists</strong> page!
       </h3>
       <h3>
         Please use the <strong>Genres</strong> page to navigate through 

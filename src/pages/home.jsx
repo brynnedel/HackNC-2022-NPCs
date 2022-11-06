@@ -4,7 +4,7 @@ import { useWiggle } from "../hooks/wiggle";
 import { Link } from "wouter";
 
 // Our language strings for the header
-const strings = ["Artists in Chapel Hill!"];
+const strings = ["Discover Artists in Chapel Hill"];
 
 /**
  * The Home function defines the content that makes up the main content of the Home page
@@ -47,8 +47,7 @@ export default function Home() {
         <p>
           This is the <strong>UNC-CH Artist Finder</strong> project. You can use
           it to find and filter artist by genre to connect and book them for
-          your own event. Please check out the About page for more information
-          or
+          your own event. Artists, feel free to leave your information in your respective genre to get noticed!
         </p>
       </div>
       
