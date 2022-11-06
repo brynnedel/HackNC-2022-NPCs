@@ -21,23 +21,15 @@ export default function Home() {
   const [style, trigger] = useWiggle({ x: 5, y: 5, scale: 1 });
 
   // When the user clicks we change the header language
-  const handleChangeHello = () => {
-    
-    // Choose a new Hello from our languages
-    const newHello = randomLanguage();
-    
-    // Call the function to set the state string in our component
-    setHello(newHello);
-  };
+
   return (
     <>
-      <h1 className="title">{hello}!</h1>
+      <h1>Hello Artists in CH!</h1>
       {/* When the user hovers over the image we apply the wiggle style to it */}
       <animated.div onMouseEnter={trigger} style={style}>
         <img
           src="https://cdn.glitch.global/d0eea474-4e6d-40ae-ac0a-ef353a459b23/unc%20vinyl.gif?v=1667684923524"
           className="illustration"
-          onClick={handleChangeHello}
           alt="Illustration click to change language"
         />
       </animated.div>
