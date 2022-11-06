@@ -349,11 +349,9 @@ img{
 
 
 #genre-button{
-width: 100vh;
-height: 50vh;
   display: flex;
   text-align: center;
-  background-image: url("paper.gif");
+  background-image: url("https://townsquare.media/site/204/files/2019/01/William-Michael-Morgan-Twitter.gif?w=980&q=75");
 }
 #genre-image{
   object-fit: cover;
