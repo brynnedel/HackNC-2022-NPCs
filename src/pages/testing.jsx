@@ -73,10 +73,7 @@ export default function Testing() {
 
       <div class="divider"></div>
     
-      <div class="row">
-      <div class="column"><h2>o</h2></div>
-         <div class="column"><h2>o</h2></div>
-      </div>
+   
       
     </div>
   );

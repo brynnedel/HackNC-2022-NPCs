@@ -49,6 +49,18 @@ export default function Home() {
           it to find and filter artist by genre to connect and book them for
           your own event. Artists, feel free to leave your information in your respective genre to get noticed!
         </p>
+        
+        <div class="divider"></div>
+          <div class="divider"></div>
+          <div class="divider"></div>
+        
+        <h2>h</h2>
+        
+           <div class="row">
+      <div class="column"><h4>Text</h4></div>
+         <div class="column"><h2>Image</h2></div>
+      </div>
+        
       </div>
       
     </>
