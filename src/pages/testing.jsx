@@ -25,7 +25,7 @@ export default function Testing() {
       <div class="divider"></div>
   
       
-   <a href="/src/rnb.jsx"><div class="jumbotron">
+   <a href="/rnb"><div class="jumbotron">
      <img src="https://photos.bandsintown.com/large/9539821.jpeg"></img>
     <h2 id="genre-title">Rhythm & Blues</h2>
      <p>Description</p>
