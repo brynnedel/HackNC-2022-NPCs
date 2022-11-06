@@ -15,7 +15,7 @@ yarray.observeDeep(() => {
 
 function TableData() {
   const [artistData, setArtistData] = useState([{"name": "", "location": "", "social": ""}]);
-
+  const [arrayValue, setArrayValue] = useState(yarray.toArray());
   const tableRows = yarray.map((info) => {
     return (
       <tr>
@@ -25,14 +25,16 @@ function TableData() {
       </tr>
     );
   });
-  
+  useEffect(()=> {
+    
+  })
   const addRows = (data) => {
     const totalArtists = artistData.length;
     const updatedArtistData = [...artistData];
     console.log(updatedArtistData);
     console.log(data);
     yarray.push([data]);
-    setArtistData(updatedArtistData);
+    setArrayValue(yarray);
   };
   
   return (
@@ -45,7 +47,14 @@ function TableData() {
             <th>Social Media</th>
           </tr>
         </thead>
-        <tbody>{tableRows}</tbody>
+        <tbody>{arrayValue.map((info) => {
+            <tr>
+              <td>{info.name}</td>
+              <td>{info.location}</td>
+              <td>{info.social}</td>
+            </tr>
+          })}
+        </tbody>
       </table>
       <ArtistsForm func = {addRows} />
     </div>

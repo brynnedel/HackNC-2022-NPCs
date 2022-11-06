@@ -72,6 +72,7 @@ html {
 
 .container-fluid{
   display: flex;
+  
   }
 ul{
   display:flex;
@@ -375,7 +376,7 @@ img{
   width: 100vh;
   height: 50vh;
   border-radius: 30px;
-  background-image: url("https://images.squarespace-cdn.com/content/v1/561d7296e4b0e681f07991b8/1563476358227-RRFKI6TM66EILSC21U8X/pile-audiotree-farout-17.jpg");
+  background-image: url("https://i.pinimg.com/736x/75/54/f7/7554f73726ba0c4046e8dfbd9dee0f86--band-pictures-latest-music.jpg");
 }
 
 #genre-rnb{
@@ -405,7 +406,7 @@ img{
   width: 100vh;
   height: 50vh;
   border-radius: 30px;
-  background-image: url("https://www.kennedy-center.org/globalassets/nso/2022-2023/76877_nso_noseda-strauss_eventimage.jpg?width=768&quality=70");
+  background-image: url("https://media.istockphoto.com/id/465732100/photo/african-jazz-musician-playing-the-saxophone.jpg?s=612x612&w=0&k=20&c=hCw5oibcUVJYSHqAWJQnD3AHpPATEdCZoA4TS8qqkng=");
 }
 
 #genre-pop{
@@ -415,7 +416,17 @@ img{
   width: 100vh;
   height: 50vh;
   border-radius: 30px;
-  background-image: url("https://www.kennedy-center.org/globalassets/nso/2022-2023/76877_nso_noseda-strauss_eventimage.jpg?width=768&quality=70");
+  background-image: url("https://assets.teenvogue.com/photos/61fa6a0a8be5c8e89dcde024/16:9/w_1280,c_limit/LINDA.jpeg");
+}
+
+#genre-rock{
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  width: 100vh;
+  height: 50vh;
+  border-radius: 30px;
+  background-image: url("https://deadline.com/wp-content/uploads/2020/07/great-white-e1594606346105.jpg");
 }
 #genre-button:hover{
   color: #4B9CD3;
