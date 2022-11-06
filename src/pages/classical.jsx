@@ -1,13 +1,13 @@
 import * as React from "react";
 import TableData from '../components/form';
 
-function Indie() {
+function Classical() {
   return (
     <div classname="page">
-      <h1>Indie</h1>
+      <h1>Classical</h1>
       <TableData />
     </div>
   );
 }
 
-export default Indie;
+export default Classical;

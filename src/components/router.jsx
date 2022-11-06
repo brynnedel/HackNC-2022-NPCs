@@ -5,6 +5,13 @@ import About from "../pages/about";
 import Testing from "../pages/testing";
 import Artists from "../pages/artists";
 import Rnb from "../pages/rnb";
+import Hiphop from "../pages/hiphop";
+import Indie from "../pages/indie";
+import Jazz from "../pages/jazz";
+import Pop from "../pages/pop";
+import Rock from "../pages/rock";
+import Classical from "../pages/classical"
+import Country from "../pages/country";
 /**
 * The router is imported in app.jsx
 *
@@ -20,5 +27,12 @@ export default () => (
       <Route path="/testing" component={Testing} />
       <Route path="/artists" component={Artists} />
       <Route path="/rnb" component={Rnb} />
+      <Route path="/hiphop" component={Hiphop}/>
+      <Route path="/indie" component={Indie}/>
+      <Route path="/jazz" component={Jazz}/>
+      <Route path="/pop" component={Pop}/>
+      <Route path="/rock" component={Rock}/>
+      <Route path="/classical" component={Classical}/>
+      <Route path="/country" component={Country}/>
     </Switch>
 );
